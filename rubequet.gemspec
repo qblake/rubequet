@@ -3,13 +3,14 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'rubequet/version'
 
+
 Gem::Specification.new do |spec|
   spec.name          = "rubequet"
   spec.version       = Rubequet::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.authors       = ["Alex Rehsitd"]
+  spec.email         = ["qblake.public@gmail.com"]
+  spec.description   = %q{some gem}
+  spec.summary       = %q{gem summary}
   spec.homepage      = ""
   spec.license       = "MIT"
 

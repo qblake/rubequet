@@ -5,7 +5,8 @@ module Rubequet
       true
     end
 
-    # def reverse
-    # end
+    def reverse
+      'chunky bacon'
+    end
   end
 end

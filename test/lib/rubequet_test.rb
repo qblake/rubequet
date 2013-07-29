@@ -10,7 +10,7 @@ class RubequetTest < MiniTest::Test
     #assert_equal true, true
   end
 
-  # def test_reverse
-  #   assert_equal 'nocab yknuhc'.reverse, @p.reverse
-  # end
+  def test_reverse
+    assert_equal 'nocab yknuhc'.reverse, @p.reverse
+  end
 end

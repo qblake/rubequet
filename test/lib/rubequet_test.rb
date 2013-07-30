@@ -23,4 +23,11 @@ class RubequetTest < MiniTest::Test
     assert_equal @p.maximum([-2, 0, 33, 304, 2, -2]), 304
     assert_equal @p.maximum([1]), 1
   end
+
+  def test_fizz_buzz
+    assert_equal @p.fizzbuzz(3), "Fizz"
+    assert_equal @p.fizzbuzz(50), "Buzz"
+    assert_equal @p.fizzbuzz(15), "FizzBuzz"
+    assert_equal @p.fizzbuzz(5175), "FizzBuzz"
+  end
 end

@@ -16,5 +16,12 @@ module Rubequet
     def maximum(arr)
       arr.max
     end
+
+    def fizzbuzz(x)
+      string = ""
+      string << "Fizz" if x % 3 == 0
+      string << "Buzz" if x % 5 == 0
+      string
+    end
   end
 end

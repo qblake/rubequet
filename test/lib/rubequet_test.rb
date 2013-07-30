@@ -13,4 +13,8 @@ class RubequetTest < MiniTest::Test
   def test_reverse
     assert_equal 'nocab yknuhc'.reverse, @p.reverse
   end
+
+  def test_hello_world
+    assert_equal 'HELLO WORLD', @p.hello_world
+  end
 end

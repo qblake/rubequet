@@ -8,5 +8,9 @@ module Rubequet
     def reverse
       'chunky bacon'
     end
+
+    def hello_world
+      'hello world'.upcase
+    end
   end
 end

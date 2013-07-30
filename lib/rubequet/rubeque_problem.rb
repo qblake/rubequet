@@ -12,5 +12,9 @@ module Rubequet
     def hello_world
       'hello world'.upcase
     end
+
+    def maximum(arr)
+      arr.max
+    end
   end
 end

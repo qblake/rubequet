@@ -30,4 +30,8 @@ class RubequetTest < MiniTest::Test
     assert_equal @p.fizzbuzz(15), "FizzBuzz"
     assert_equal @p.fizzbuzz(5175), "FizzBuzz"
   end
+
+  def test_difficulty
+    assert_equal 30, @p.difficulty([1, 4, nil, 9, 16, nil])
+  end
 end

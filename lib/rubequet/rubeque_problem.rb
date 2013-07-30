@@ -23,5 +23,10 @@ module Rubequet
       string << "Buzz" if x % 5 == 0
       string
     end
+
+    def difficulty(arr)
+      arr.compact.inject(0) {|sum, number| sum + number}
+      #arr.collect{ |x| x.nil? ? 0 : x }.inject(0) {|sum, number| sum + number}
+    end
   end
 end

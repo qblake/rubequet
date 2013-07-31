@@ -30,4 +30,4 @@ TODO: Write usage instructions here
 
 ## Status
 [![Coverage Status](https://coveralls.io/repos/qblake/rubequet/badge.png?branch=master)](https://coveralls.io/r/qblake/rubequet?branch=master)
-[![Build Status](https://travis-ci.org/qblake/rubequet.png.png)](https://travis-ci.org/qblake/rubequet)
+[![Build Status](https://travis-ci.org/qblake/rubequet.png)](https://travis-ci.org/qblake/rubequet)
